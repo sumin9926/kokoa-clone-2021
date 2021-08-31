@@ -8,18 +8,34 @@
 </head>
 <body>
     <div id="status-bar">
-        <div class="status-bar___column">
+        <div class="status-bar__column">
            <span>No Service</span>
-           <!-- To Do: WiFi Icon--> 
+           <i class="fas fa-wifi"></i>
         </div>
-        <div class="status-bar___column">
+        <div class="status-bar__column">
            <span>18:43</span>
         </div>
-        <div class="status-bar___column">
+        <div class="status-bar__column">
            <span>90%</span> 
-           <!-- Battery Icon-->
-           <!-- Lightning Icon-->
+           <i class="fas fa-battery-three-quarters"></i>
+           <i class="fas fa-bolt"></i>
         </div>
     </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
+        <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
+    </header>
+
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number" />
+        <input type="password" placeholder="Password" />
+        <input type="submit" value="Log in" />
+        <input type="submit" value="Sign Up" />
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+
+    <script src="https://kit.fontawesome.com/9e28150cf1.js" crossorigin="anonymous"></script>
 </body>
 </html>
